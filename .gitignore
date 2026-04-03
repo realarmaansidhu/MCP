@@ -2,4 +2,5 @@ environ/
 quickstart-resources/
 package-lock.json
 package.json
+.gitignore
 .env
