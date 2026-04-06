@@ -1,8 +1,10 @@
 environ/
 quickstart-resources/
 package-lock.json
+mcp-servers/package-lock.json
 package.json
 .env
 .github
 .vscode
 __pycache__
+.vexp
