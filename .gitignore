@@ -2,5 +2,7 @@ environ/
 quickstart-resources/
 package-lock.json
 package.json
-.gitignore
 .env
+.github
+.vscode
+__pycache__
