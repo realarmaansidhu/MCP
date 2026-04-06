@@ -1,0 +1,3 @@
+[submodule "mcp-servers/upstream"]
+	path = mcp-servers/upstream
+	url = https://github.com/modelcontextprotocol/quickstart-resources.git
