@@ -1,4 +1,4 @@
-Model Context Protocol Security | A Cloud Security Alliance Community Project - Secure Autonomy: Hardening Model-Context-Protocol Servers & Agents: https://modelcontextprotocol-security.io/
+Model Context Protocol Security | A Cloud Security Alliance Community Project - Secure Autonomy: https://github.com/ModelContextProtocol-Security/modelcontextprotocol-security.io
 Why MCP Security? | Model Context Protocol Security: https://modelcontextprotocol-security.io/why/
 FAQ | Model Context Protocol Security: https://modelcontextprotocol-security.io/why/faq.html
 MCP Top 10 Security Risks | Model Context Protocol Security: https://modelcontextprotocol-security.io/top10/
@@ -102,8 +102,8 @@ Payments & Wallets | Model Context Protocol Security: https://modelcontextprotoc
 Lifecycle Management | Model Context Protocol Security: https://modelcontextprotocol-security.io/hardening/lifecycle-management.html
 Security Checklist | Model Context Protocol Security: https://modelcontextprotocol-security.io/hardening/checklist.html
 Known Vulnerabilities | Model Context Protocol Security: https://modelcontextprotocol-security.io/known-vulnerabilities/
-CVE-2025-49596: RCE in MCP Inspector | Model Context Protocol Security: https://modelcontextprotocol-security.io/known-vulnerabilities/cve-2025-49596/
-CVE-2025-6514: Authentication Bypass and Session Hijacking | Model Context Protocol Security: https://modelcontextprotocol-security.io/known-vulnerabilities/cve-2025-6514/
+CVE-2025-49596: https://modelcontextprotocol-security.io/known-vulnerabilities/cve-2025-49596/
+CVE-2025-6514: https://modelcontextprotocol-security.io/known-vulnerabilities/cve-2025-6514/
 Build Security | Model Context Protocol Security: https://modelcontextprotocol-security.io/build/
 OAuth Security Patterns | Model Context Protocol Security: https://modelcontextprotocol-security.io/build/oauth-security/
 Authentication Strategies | Model Context Protocol Security: https://modelcontextprotocol-security.io/build/authentication-strategies/
