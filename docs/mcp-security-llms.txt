@@ -1,0 +1,8 @@
+MCP Security: https://raw.githubusercontent.com/ModelContextProtocol-Security/modelcontextprotocol-security.io/main/
+Why MCP Security: https://modelcontextprotocol-security.io/why/
+MCP Top 10: https://modelcontextprotocol-security.io/top10/
+Hardening Guide: https://modelcontextprotocol-security.io/hardening/
+TTP Matrix: https://modelcontextprotocol-security.io/ttps-view/
+Known Vulnerabilities: https://modelcontextprotocol-security.io/known-vulnerabilities/
+Audit Tools: https://modelcontextprotocol-security.io/audit/
+Reference Patterns: https://modelcontextprotocol-security.io/patterns/
