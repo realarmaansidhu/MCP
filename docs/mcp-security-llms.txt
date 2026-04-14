@@ -1,8 +1,154 @@
-MCP Security: https://raw.githubusercontent.com/ModelContextProtocol-Security/modelcontextprotocol-security.io/main/
-Why MCP Security: https://modelcontextprotocol-security.io/why/
-MCP Top 10: https://modelcontextprotocol-security.io/top10/
-Hardening Guide: https://modelcontextprotocol-security.io/hardening/
-TTP Matrix: https://modelcontextprotocol-security.io/ttps-view/
-Known Vulnerabilities: https://modelcontextprotocol-security.io/known-vulnerabilities/
-Audit Tools: https://modelcontextprotocol-security.io/audit/
-Reference Patterns: https://modelcontextprotocol-security.io/patterns/
+Model Context Protocol Security | A Cloud Security Alliance Community Project - Secure Autonomy: Hardening Model-Context-Protocol Servers & Agents: https://modelcontextprotocol-security.io/
+Why MCP Security? | Model Context Protocol Security: https://modelcontextprotocol-security.io/why/
+FAQ | Model Context Protocol Security: https://modelcontextprotocol-security.io/why/faq.html
+MCP Top 10 Security Risks | Model Context Protocol Security: https://modelcontextprotocol-security.io/top10/
+MCP Server Top 10 Security Risks | Model Context Protocol Security: https://modelcontextprotocol-security.io/top10/server/
+MCP Client Top 10 Security Risks | Model Context Protocol Security: https://modelcontextprotocol-security.io/top10/client/
+TTP Matrix View | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps-view/
+MCP Security TTPs | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/
+Prompt Injection & Manipulation | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/prompt-injection/
+Direct Prompt Injection | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/prompt-injection/direct-prompt-injection/
+Indirect Prompt Injection | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/prompt-injection/indirect-prompt-injection/
+Tool Description Poisoning | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/prompt-injection/tool-description-poisoning/
+Context Shadowing | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/prompt-injection/context-shadowing/
+Prompt-State Manipulation | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/prompt-injection/prompt-state-manipulation/
+ANSI Escape Code Injection | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/prompt-injection/ansi-escape-injection/
+Hidden Instructions | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/prompt-injection/hidden-instructions/
+Tool Poisoning & Metadata Attacks | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/tool-poisoning/
+Tool Poisoning | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/tool-poisoning/tool-poisoning/
+Tool Mutation/Rug Pull Attacks | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/tool-poisoning/tool-mutation/
+Tool Name Conflict | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/tool-poisoning/tool-name-conflict/
+Tool Shadowing/Name Collisions | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/tool-poisoning/tool-shadowing/
+Preference Manipulation | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/tool-poisoning/preference-manipulation/
+Prompt Injection in Metadata | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/tool-poisoning/metadata-prompt-injection/
+Metadata Manipulation | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/tool-poisoning/metadata-manipulation/
+Tool Impersonation | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/tool-poisoning/tool-impersonation/
+Data Exfiltration & Credential Theft | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/data-exfiltration/
+Data Exfiltration | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/data-exfiltration/data-exfiltration/
+Credential Exfiltration | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/data-exfiltration/credential-exfiltration/
+Token Theft/Overreach | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/data-exfiltration/token-theft/
+API Key Exposure | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/data-exfiltration/api-key-exposure/
+Conversation History Exfiltration | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/data-exfiltration/conversation-history-exfiltration/
+Sensitive Information Disclosure | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/data-exfiltration/sensitive-information-disclosure/
+Command & Code Injection | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/command-injection/
+Command Injection | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/command-injection/command-injection/
+SQL Injection | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/command-injection/sql-injection/
+OS Command Injection | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/command-injection/os-command-injection/
+Code Injection | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/command-injection/code-injection/
+Shell Command Execution | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/command-injection/shell-command-execution/
+Output Prompt Injection | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/command-injection/output-prompt-injection/
+Malicious Output Composition | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/command-injection/malicious-output-composition/
+Authentication & Authorization | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/authentication/
+Unauthenticated Access | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/authentication/unauthenticated-access/
+Broken Authentication | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/authentication/broken-authentication/
+Authorization Bypass | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/authentication/authorization-bypass/
+Auth Bypass & Rogue Server Registration | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/authentication/auth-bypass-rogue-server/
+Identity Subversion | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/authentication/identity-subversion/
+Session Management Issues | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/authentication/session-management-issues/
+Privilege Escalation | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/authentication/privilege-escalation/
+Audit Bypass | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/authentication/audit-bypass/
+Supply Chain & Dependencies | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/supply-chain/
+Malicious MCP Packages | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/supply-chain/malicious-mcp-packages/
+Supply Chain Attacks | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/supply-chain/supply-chain-attacks/
+Dependency Vulnerabilities | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/supply-chain/dependency-vulnerabilities/
+Installer Spoofing | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/supply-chain/installer-spoofing/
+Typosquatting | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/supply-chain/typosquatting/
+Drift from Upstream | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/supply-chain/drift-from-upstream/
+Malicious Dependency Inclusion | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/supply-chain/malicious-dependency-inclusion/
+Context Manipulation | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/context-manipulation/
+Context Poisoning | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/context-manipulation/context-poisoning/
+Context Spoofing | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/context-manipulation/context-spoofing/
+Context Manipulation | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/context-manipulation/context-manipulation/
+Memory References Issues | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/context-manipulation/memory-references-issues/
+Covert Channel Abuse | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/context-manipulation/covert-channel-abuse/
+Protocol Vulnerabilities | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/protocol-vulnerabilities/
+Session IDs in URLs | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/protocol-vulnerabilities/session-ids-in-urls/
+Lack of Authentication Standards | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/protocol-vulnerabilities/lack-of-authentication-standards/
+Missing Integrity Controls | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/protocol-vulnerabilities/missing-integrity-controls/
+Protocol Implementation Flaws | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/protocol-vulnerabilities/protocol-implementation-flaws/
+Insecure Communication | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/protocol-vulnerabilities/insecure-communication/
+Privilege & Access Control | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/privilege-access-control/
+Unauthorized Privilege Escalation | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/privilege-access-control/unauthorized-privilege-escalation/
+Excessive Tool Permissions | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/privilege-access-control/excessive-tool-permissions/
+Sandbox Escape | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/privilege-access-control/sandbox-escape/
+Resource Access Control Bypass | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/privilege-access-control/resource-access-control-bypass/
+Cross-Context Access | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/privilege-access-control/cross-context-access/
+Process Injection | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/privilege-access-control/process-injection/
+Economic & Infrastructure Abuse | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/economic-infrastructure-abuse/
+Resource Exhaustion | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/economic-infrastructure-abuse/resource-exhaustion/
+API Rate Limit Bypass | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/economic-infrastructure-abuse/api-rate-limit-bypass/
+Computational Resource Abuse | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/economic-infrastructure-abuse/computational-resource-abuse/
+Monitoring & Operational Security | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/monitoring-operational-security/
+Insufficient Logging | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/monitoring-operational-security/insufficient-logging/
+Missing Audit Trails | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/monitoring-operational-security/missing-audit-trails/
+Inadequate Monitoring | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/monitoring-operational-security/inadequate-monitoring/
+Log Tampering | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/monitoring-operational-security/log-tampering/
+Blind Spots in Security | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/monitoring-operational-security/blind-spots-in-security/
+AI-Specific Vulnerabilities | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/ai-specific-vulnerabilities/
+Model Poisoning | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/ai-specific-vulnerabilities/model-poisoning/
+Inference Attacks | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/ai-specific-vulnerabilities/inference-attacks/
+Model Theft | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/ai-specific-vulnerabilities/model-theft/
+Adversarial Attacks | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/ai-specific-vulnerabilities/adversarial-attacks/
+Hardening Guide | Model Context Protocol Security: https://modelcontextprotocol-security.io/hardening/
+Provenance & Selection | Model Context Protocol Security: https://modelcontextprotocol-security.io/hardening/provenance-selection.html
+Code Integrity & Auditing | Model Context Protocol Security: https://modelcontextprotocol-security.io/hardening/code-integrity-auditing.html
+Runtime Isolation | Model Context Protocol Security: https://modelcontextprotocol-security.io/hardening/runtime-isolation.html
+Traffic Mediation | Model Context Protocol Security: https://modelcontextprotocol-security.io/hardening/traffic-mediation.html
+Secrets Management | Model Context Protocol Security: https://modelcontextprotocol-security.io/hardening/secrets-management.html
+Observability & Logging | Model Context Protocol Security: https://modelcontextprotocol-security.io/hardening/observability-logging.html
+Backup & Versioning | Model Context Protocol Security: https://modelcontextprotocol-security.io/hardening/backup-versioning.html
+Policy & Guardrails | Model Context Protocol Security: https://modelcontextprotocol-security.io/hardening/policy-guardrails.html
+Payments & Wallets | Model Context Protocol Security: https://modelcontextprotocol-security.io/hardening/payments-wallets.html
+Lifecycle Management | Model Context Protocol Security: https://modelcontextprotocol-security.io/hardening/lifecycle-management.html
+Security Checklist | Model Context Protocol Security: https://modelcontextprotocol-security.io/hardening/checklist.html
+Known Vulnerabilities | Model Context Protocol Security: https://modelcontextprotocol-security.io/known-vulnerabilities/
+CVE-2025-49596: RCE in MCP Inspector | Model Context Protocol Security: https://modelcontextprotocol-security.io/known-vulnerabilities/cve-2025-49596/
+CVE-2025-6514: Authentication Bypass and Session Hijacking | Model Context Protocol Security: https://modelcontextprotocol-security.io/known-vulnerabilities/cve-2025-6514/
+Build Security | Model Context Protocol Security: https://modelcontextprotocol-security.io/build/
+OAuth Security Patterns | Model Context Protocol Security: https://modelcontextprotocol-security.io/build/oauth-security/
+Authentication Strategies | Model Context Protocol Security: https://modelcontextprotocol-security.io/build/authentication-strategies/
+Runtime Isolation | Model Context Protocol Security: https://modelcontextprotocol-security.io/build/runtime-isolation/
+Architecture Patterns | Model Context Protocol Security: https://modelcontextprotocol-security.io/build/architecture-patterns/
+Tool Metadata Specification | Model Context Protocol Security: https://modelcontextprotocol-security.io/build/tool-metadata-spec/
+Operations Guide | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/
+Container Operations | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/container-operations.html
+Network Controls | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/network-controls.html
+Remote Deployment | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/remote-deployment.html
+Monitoring & Alerting | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/monitoring-alerting.html
+Incident Response | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/incident-response.html
+API Gateway Operations | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/api-gateway-operations.html
+Change Management | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/change-management.html
+Forensics & Investigation | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/forensics-investigation.html
+Operational Maintenance | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/operational-maintenance.html
+Operational Runbooks | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/operational-runbooks.html
+Performance & Security | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/performance-security.html
+Security Troubleshooting | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/security-troubleshooting.html
+Security Workflows | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/security-workflows.html
+TLS & Proxy Management | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/tls-proxy-management.html
+Traffic Redirection | Model Context Protocol Security: https://modelcontextprotocol-security.io/operations/traffic-redirection.html
+Reference Patterns | Model Context Protocol Security: https://modelcontextprotocol-security.io/patterns/
+Enterprise Gateway | Model Context Protocol Security: https://modelcontextprotocol-security.io/patterns/enterprise-gateway.html
+Local Dev Container | Model Context Protocol Security: https://modelcontextprotocol-security.io/patterns/local-dev-container.html
+Cloud-based Container or VPS | Model Context Protocol Security: https://modelcontextprotocol-security.io/patterns/llm-heaven-vps.html
+Operational Security | Model Context Protocol Security: https://modelcontextprotocol-security.io/operational/
+Runtime Monitoring | Model Context Protocol Security: https://modelcontextprotocol-security.io/operational/runtime-monitoring/
+Registry Security | Model Context Protocol Security: https://modelcontextprotocol-security.io/operational/registry-security/
+Version Management | Model Context Protocol Security: https://modelcontextprotocol-security.io/operational/version-management/
+Audit Tools | Model Context Protocol Security: https://modelcontextprotocol-security.io/audit/
+MCP Inspector | Model Context Protocol Security: https://modelcontextprotocol-security.io/audit/mcp-inspector.html
+Tool Usage Auditing | Model Context Protocol Security: https://modelcontextprotocol-security.io/audit/tool-usage-auditing/
+Selection Scorecard | Model Context Protocol Security: https://modelcontextprotocol-security.io/audit/scorecard.html
+Vulnerability Tracking | Model Context Protocol Security: https://modelcontextprotocol-security.io/audit/vulnerability-tracking/
+Step-by-Step Guide | Model Context Protocol Security: https://modelcontextprotocol-security.io/audit/step-by-step-guide.html
+Tools & Scripts | Model Context Protocol Security: https://modelcontextprotocol-security.io/tools/
+Community Projects | Model Context Protocol Security: https://modelcontextprotocol-security.io/projects/
+Vulnerability Database | Model Context Protocol Security: https://modelcontextprotocol-security.io/vulnerability-db/
+Community | Model Context Protocol Security: https://modelcontextprotocol-security.io/community/
+Charter | Model Context Protocol Security: https://modelcontextprotocol-security.io/community/charter.html
+Code of Conduct | Model Context Protocol Security: https://modelcontextprotocol-security.io/community/code-of-conduct.html
+Get Involved | Model Context Protocol Security: https://modelcontextprotocol-security.io/get-involved.html
+Blog | Model Context Protocol Security: https://modelcontextprotocol-security.io/blog/
+Events | Model Context Protocol Security: https://modelcontextprotocol-security.io/events/
+Security News | Model Context Protocol Security: https://modelcontextprotocol-security.io/news/
+Tool Squatting | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/tool-poisoning/tool-squatting/
+Metadata Manipulation Attacks | Model Context Protocol Security: https://modelcontextprotocol-security.io/ttps/tool-poisoning/metadata-manipulation-attacks/
