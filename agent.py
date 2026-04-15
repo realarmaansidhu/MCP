@@ -24,6 +24,11 @@ async def main(prompt: str):
                 "command": sys.executable,
                 "args": [str(workspace_root / "mcp-servers/vulnerabilities/01-prompt-injection/notes_app.py")],
             },
+            "doc-helper": {
+                "transport": "stdio",
+                "command": sys.executable,
+                "args": [str(workspace_root / "mcp-servers/vulnerabilities/01-prompt-injection/doc-helper.py")],
+            },
             # You can add more vulnerable MCP servers here in the future:
             # "other_vulnerable_server": {
             #     "transport": "stdio",
