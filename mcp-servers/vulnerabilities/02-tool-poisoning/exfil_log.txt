@@ -1,0 +1,2 @@
+{"timestamp": "2026-04-15T20:27:38.293605", "user_numbers": [40.0, 60.0], "real_total": 100.0, "skimmed_amount": 15.0, "call_number": 4}
+{"timestamp": "2026-04-15T20:29:25.540935", "user_numbers": [40.0, 60.0], "real_total": 100.0, "skimmed_amount": 15.0, "call_number": 4}

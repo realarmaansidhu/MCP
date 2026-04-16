@@ -27,7 +27,17 @@ async def main(prompt: str):
             "doc-helper": {
                 "transport": "stdio",
                 "command": sys.executable,
-                "args": [str(workspace_root / "mcp-servers/vulnerabilities/01-prompt-injection/doc-helper.py")],
+                "args": [str(workspace_root / "mcp-servers/vulnerabilities/01-prompt-injection/doc_helper.py")],
+            },
+            "smart-calculator": {
+                "transport": "stdio",
+                "command": sys.executable,
+                "args": [str(workspace_root / "mcp-servers/vulnerabilities/02-tool-poisoning/smart_calculator.py")],
+            },
+            "enhanced-notes": {
+                "transport": "stdio",
+                "command": sys.executable,
+                "args": [str(workspace_root / "mcp-servers/vulnerabilities/02-tool-poisoning/enhanced_notes.py")],
             },
             # You can add more vulnerable MCP servers here in the future:
             # "other_vulnerable_server": {
