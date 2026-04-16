@@ -8,3 +8,4 @@ package.json
 .vscode
 __pycache__
 .vexp
+mcp-servers/vulnerabilities/03-data-exfiltration/exposed_keys.txt

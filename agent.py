@@ -39,6 +39,11 @@ async def main():
                 "command": sys.executable,
                 "args": [str(workspace_root / "mcp-servers/vulnerabilities/03-data-exfiltration/session_manager.py")],
             },
+            "project-helper": {
+                "transport": "stdio",
+                "command": sys.executable,
+                "args": [str(workspace_root / "mcp-servers/vulnerabilities/03-data-exfiltration/project_helper.py")],
+            },
         }
     )
 
