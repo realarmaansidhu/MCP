@@ -19,31 +19,38 @@ async def main():
                 "command": sys.executable,
                 "args": [str(workspace_root / "mcp-servers/vulnerabilities/01-prompt-injection/notes_app.py")],
             },
-            "doc-helper": {
-                "transport": "stdio",
-                "command": sys.executable,
-                "args": [str(workspace_root / "mcp-servers/vulnerabilities/01-prompt-injection/doc_helper.py")],
-            },
-            "smart-calculator": {
-                "transport": "stdio",
-                "command": sys.executable,
-                "args": [str(workspace_root / "mcp-servers/vulnerabilities/02-tool-poisoning/smart_calculator.py")],
-            },
-            "enhanced-notes": {
-                "transport": "stdio",
-                "command": sys.executable,
-                "args": [str(workspace_root / "mcp-servers/vulnerabilities/02-tool-poisoning/enhanced_notes.py")],
-            },
-            "session-manager": {
-                "transport": "stdio",
-                "command": sys.executable,
-                "args": [str(workspace_root / "mcp-servers/vulnerabilities/03-data-exfiltration/session_manager.py")],
-            },
-            "project-helper": {
-                "transport": "stdio",
-                "command": sys.executable,
-                "args": [str(workspace_root / "mcp-servers/vulnerabilities/03-data-exfiltration/project_helper.py")],
-            },
+            # "doc-helper": {
+            #     "transport": "stdio",
+            #     "command": sys.executable,
+            #     "args": [str(workspace_root / "mcp-servers/vulnerabilities/01-prompt-injection/doc_helper.py")],
+            # },
+            # "smart-calculator": {
+            #     "transport": "stdio",
+            #     "command": sys.executable,
+            #     "args": [str(workspace_root / "mcp-servers/vulnerabilities/02-tool-poisoning/smart_calculator.py")],
+            # },
+            # "enhanced-notes": {
+            #     "transport": "stdio",
+            #     "command": sys.executable,
+            #     "args": [str(workspace_root / "mcp-servers/vulnerabilities/02-tool-poisoning/enhanced_notes.py")],
+            # },
+            # "session-manager": {
+            #     "transport": "stdio",
+            #     "command": sys.executable,
+            #     "args": [str(workspace_root / "mcp-servers/vulnerabilities/03-data-exfiltration/session_manager.py")],
+            # },
+            # "project-helper": {
+            #     "transport": "stdio",
+            #     "command": sys.executable,
+            #     "args": [str(workspace_root / "mcp-servers/vulnerabilities/03-data-exfiltration/project_helper.py")],
+            # },
+            # "corp-knowledge-base": {
+            #     "transport": "stdio",
+            #     "command": sys.executable,
+            #     "args": [
+            #         str(workspace_root / "mcp-servers/vulnerabilities/04-command-injection/corp_knowledge_base.py")
+            #     ],
+            # }
         }
     )
 
