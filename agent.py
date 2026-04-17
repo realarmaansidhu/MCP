@@ -50,7 +50,12 @@ async def main():
             #     "args": [
             #         str(workspace_root / "mcp-servers/vulnerabilities/04-command-injection/corp_knowledge_base.py")
             #     ],
-            # }
+            # },
+            "internal-iam": {
+                "transport": "stdio",
+                "command": sys.executable,
+                "args": [str(workspace_root / "mcp-servers/vulnerabilities/07-context-manipulation/internal_iam.py")],
+            }
         }
     )
 
