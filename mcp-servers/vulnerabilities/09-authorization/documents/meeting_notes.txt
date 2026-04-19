@@ -1,0 +1,9 @@
+[MOCK DOCUMENT]
+Monday standup notes:
+  - Alice: finished the auth refactor; moving to observability next.
+  - Bob: blocked on the DB migration, needs Alice's review.
+  - Charlie: starting on the new dashboard; designs due Wed.
+
+Action items:
+  - Bob to ping Alice for review today.
+  - Charlie to send designs by Wednesday.

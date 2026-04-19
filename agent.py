@@ -14,11 +14,11 @@ async def main():
 
     client = MultiServerMCPClient(
         {
-            "notes-app": {
-                "transport": "stdio",
-                "command": sys.executable,
-                "args": [str(workspace_root / "mcp-servers/vulnerabilities/01-prompt-injection/notes_app.py")],
-            },
+            # "notes-app": {
+            #     "transport": "stdio",
+            #     "command": sys.executable,
+            #     "args": [str(workspace_root / "mcp-servers/vulnerabilities/01-prompt-injection/notes_app.py")],
+            # },
             # "doc-helper": {
             #     "transport": "stdio",
             #     "command": sys.executable,
@@ -51,10 +51,15 @@ async def main():
             #         str(workspace_root / "mcp-servers/vulnerabilities/04-command-injection/corp_knowledge_base.py")
             #     ],
             # },
-            "internal-iam": {
+            # "internal-iam": {
+            #     "transport": "stdio",
+            #     "command": sys.executable,
+            #     "args": [str(workspace_root / "mcp-servers/vulnerabilities/07-context-manipulation/internal_iam.py")],
+            # }
+            "read-summarize": {
                 "transport": "stdio",
                 "command": sys.executable,
-                "args": [str(workspace_root / "mcp-servers/vulnerabilities/07-context-manipulation/internal_iam.py")],
+                "args": [str(workspace_root / "mcp-servers/vulnerabilities/09-authorization/read_summarize.py")]
             }
         }
     )
