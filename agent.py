@@ -56,10 +56,15 @@ async def main():
             #     "command": sys.executable,
             #     "args": [str(workspace_root / "mcp-servers/vulnerabilities/07-context-manipulation/internal_iam.py")],
             # }
-            "read-summarize": {
+            # "read-summarize": {
+            #     "transport": "stdio",
+            #     "command": sys.executable,
+            #     "args": [str(workspace_root / "mcp-servers/vulnerabilities/09-authorization/read_summarize.py")]
+            # }
+            "customer-directory": {
                 "transport": "stdio",
                 "command": sys.executable,
-                "args": [str(workspace_root / "mcp-servers/vulnerabilities/09-authorization/read_summarize.py")]
+                "args": [str(workspace_root / "mcp-servers/hardening/customer_directory.py")]
             }
         }
     )
